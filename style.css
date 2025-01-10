@@ -1,4 +1,6 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -11,7 +13,7 @@ body {
 
 .calc-container {
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
   height: auto;
   max-height: 90vh;
   background-color: hsl(180, 25%, 35%);
@@ -111,7 +113,7 @@ body {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .calc-container {
     padding: 1rem;
     width: 95%;
@@ -127,7 +129,12 @@ body {
   }
 
   .button {
-    font-size: 2.2rem;
+    font-size: 2rem;
     height: 50px;
+  }
+
+  #backspace-button i {
+    position: relative;
+    top: -9px;
   }
 }
