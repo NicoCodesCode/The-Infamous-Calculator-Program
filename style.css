@@ -40,7 +40,7 @@ body {
   color: greenyellow;
   font-size: 3.5rem;
   position: absolute;
-  top: -33px;
+  top: 18px;
   left: 0.7rem;
   white-space: nowrap;
   overflow: hidden;
@@ -121,11 +121,12 @@ body {
 
   .calc-screen {
     height: 80px;
+    padding: 20px 5px;
   }
 
   .calc-screen-text {
     font-size: 2rem;
-    top: -18px;
+    position: static;
   }
 
   .button {
